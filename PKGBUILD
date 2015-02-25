@@ -10,7 +10,6 @@ install=${pkgname}.install
 
 _archurl='x64'
 
-[[ "${CARCH}" = i686 ]] && _archurl='x32'
 
 source=(
   "http://c758482.r82.cf2.rackcdn.com/sublime_text_3_build_${pkgver:2}_${_archurl}.tar.bz2"
